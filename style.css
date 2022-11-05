@@ -1,0 +1,52 @@
+.screen{
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    color: red;
+    font-weight: bold;
+}
+#colorLink{
+    display: block;
+    width: 200px;
+    border: 1px solid blue;
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+    background-color: yellow;
+    font-size: 150%;
+    margin-top: 20px;
+
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.redDiv, .greenDiv, .blueDiv{
+    display: flex;
+    color: white;
+    font-weight: bold;
+}
+.redDiv{
+    border: 2px solid red;
+    background-color: red;
+}
+.greenDiv{
+    border: 2px solid green;
+    background-color: green;
+
+}
+.blueDiv{
+    border: 2px solid blue;
+    background-color: blue;
+}
+#redCol, #greenCol, #blueCol, #redIncr, #greenIncr, #blueIncr{
+    /* display: block; */
+    width: 98%;
+    margin: 0;
+    padding: 0;
+}
+#btn{
+    margin-top: 10px;
+    font-weight: bold;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ColorCycle</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="screen" id="screen"></div>
+    <a
+      href="https://g.co/kgs/dBxssz"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="colorLink"
+      id="colorLink"
+      >select color HEX</a
+    >
+    <div class="inputs">
+      <input
+        type="text"
+        id="outerColor"
+        class="outerColor"
+        placeholder="six hexadecimal color code"
+      />
+      <div class="redDiv">
+        <div class="redColDiv">
+          <label for="redCol">red color:</label>
+          <input type="text" id="redCol" />
+        </div>
+        <div class="redIncrDiv">
+          <label for="redIncr">red increment</label>
+          <input type="number" name="" id="redIncr" value="10" />
+        </div>
+      </div>
+      <div class="greenDiv">
+        <div class="greenColDiv">
+          <label for="greenCol">green color:</label>
+          <input type="text" id="greenCol" />
+        </div>
+        <div class="greenIncrDiv">
+          <label for="greenIncr">green increm</label>
+          <input type="number" name="" id="greenIncr" value="10" />
+        </div>
+      </div>
+      <div class="blueDiv">
+        <div class="blueColDiv">
+          <label for="blueCol">blue color: </label>
+          <input type="text" id="blueCol" />
+        </div>
+        <div class="blueIncrDiv">
+          <label for="blueIncr">blue increment</label>
+          <input type="number" name="" id="blueIncr" value="10" />
+        </div>
+      </div>
+      <input type="button" value="Start" id="btn">
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
